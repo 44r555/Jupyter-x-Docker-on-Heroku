@@ -47,4 +47,5 @@ RUN pip install fastai
 # Project installs
 RUN pipenv install --skip-lock --system --dev
 
+
 CMD ["./scripts/entrypoint.sh"]
